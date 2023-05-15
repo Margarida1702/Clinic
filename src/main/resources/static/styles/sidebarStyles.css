@@ -1,0 +1,116 @@
+/* Sidebar Start */
+.cust-sidebar{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 5px 0px 20px #00000029;
+    opacity: 1;
+    /*width: 301px;*/
+    max-width: 100%;
+    min-width: 250px;
+    position: relative;
+}
+.cust-sidebar .cust-greet-txt {
+    text-align: left;
+    /*font: normal normal medium 17px/21px Lato;*/
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 21px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: -0.12px;
+    color: #7E7E7E;
+    opacity: 1;
+}
+
+.cust-sidebar .cust-username-txt {
+    text-align: left;
+    font: normal normal bold 29px/35px Lato, sans-serif;
+    letter-spacing: 0.23px;
+    color: #2C363E;
+    opacity: 1;
+}
+
+.cust-sidebar .cust-userType-txt{
+    text-align: left;
+    font: normal normal 300 14px/17px Lato;
+    letter-spacing: -0.1px;
+    color: #7E7E7E;
+    opacity: 1;
+}
+
+.cust-sidebar > .navbar-collapse {
+    flex: auto;
+}
+
+.cust-sidebar > .navbar-collapse.show {
+    display: flex;
+}
+
+.cust-sidebar > .navbar-collapse > .cust-menu-contn {
+    height: 100%;
+}
+
+.cust-sidebar > .navbar-collapse > .cust-menu-contn .navbar-nav {
+    flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+    .cust-sidebar > .navbar-collapse > .cust-menu-contn {
+        height: fit-content;
+    }
+}
+
+.cust-sidebar .navbar-nav .nav-item {
+    text-align: left;
+    /*font: normal normal medium 17px/21px Lato;*/
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 21px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: -0.12px;
+    color: #7E7E7E;
+    opacity: 1;
+
+    padding-left: 4px;
+
+    transition: all 0.1s ease-in-out;
+}
+
+.cust-sidebar .navbar-nav .nav-item.cust-sb-nav-select:not(.active):hover{
+    color: #7E7E7E;
+    background: #f7f7f7; /*I'll probably use this color in hover */
+
+}
+
+.cust-sidebar .navbar-nav .nav-item .cust-menu-icon{
+    margin-right: 10px;
+    margin-left: 20px;
+
+}
+
+.cust-sidebar .navbar-nav .nav-item.cust-sb-menu-title{
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+
+
+.cust-sidebar .navbar-nav .nav-item:hover{ /* I think "." without spacing between classes is na intersection selection */
+
+}
+
+
+.cust-sidebar .navbar-nav .nav-item.cust-sb-nav-select.active,
+.cust-sidebar .navbar-nav .nav-item.cust-sb-nav-select:active,
+.cust-sidebar .navbar-nav .nav-item.cust-sb-nav-select:focus { /* I think "." without spacing between classes is na intersection selection */
+    border-left: 4px solid #98C33E;
+    color: #2C363E;
+    padding-left: 0;
+    background-color: #f5fbff;
+}
+
+.cust-sidebar .navbar-nav .nav-item.active a {
+    cursor: default;
+}

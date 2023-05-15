@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+body {
+    /*background: transparent url('img/Bg_ap.png')  no-repeat ;*/
+
+    /*opacity: 0.7;*/
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.cust-mainContContainer {
+
+    background: transparent url('/images/loginPage/Bg_ap.png') 0% 0% no-repeat padding-box;
+    background-size: cover;
+
+
+}
+
+.cust-t-ban{
+
+}
+
+
+.cust-tban-logo-cont{
+    min-width: 180px;
+    /* height: 98px;
+    display: inline;*/
+}
+
+.cust-tban-logo img{
+    min-width: 175px;
+    max-width: 190px;
+    /* height: 98px;
+    display: inline;*/
+}
+
+.cust-tban-descr-container{
+
+}
+.cust-tban-desc-title {
+    text-align: left;
+    font: normal normal bold 24px/29px Lato;
+    letter-spacing: 2.59px;
+    color: #2C363E;
+    opacity: 1;
+}
+
+.cust-tban-desc-txt {
+    text-align: left;
+    font: normal normal normal 21px/24px Lato;
+    letter-spacing: -0.73px;
+    color: #7E7E7E;
+    opacity: 1;
+}
+
+.db-opt-title{
+    text-align: left;
+    font: normal normal 600 15px/18px Lato;
+    letter-spacing: 2.08px;
+    color: rgba(126, 126, 126, 1);
+    opacity: 1;
+}
+
+
+.cus-gen-dash-allopt-ctn{
+    background: transparent linear-gradient(90deg, #FFFFFFB9 0%, #FFFFFF7E 100%) 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    opacity: 1;
+    display:flex;
+    align-items: center;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.cus-gen-dash-opt-ctn .cus-dash-opt-ctn{
+    /*min-width: 266px;*/
+    /*height: 303px;*/
+
+}
+
+.cus-dash-opt-ctn .card{
+    height: 303px;
+    width: 266px;
+}
+.cus-dash-opt-ctn .card-title{
+    font: normal normal bold 21px/25px Lato;
+    letter-spacing: 2.22px;
+    color: #98C33E;
+    opacity: 1;
+    text-align: center;
+}
+
+.cus-dash-opt-ctn .cus-green-p-txt{
+    font: normal normal bold 17px/17px Lato;
+    letter-spacing: 0.1px;
+    color: rgba(126, 126, 126, 1);
+    opacity: 1;
+}
+
+.cus-green-p-txt{
+    text-align: center;
+}
+
+.portrait-photo{
+    width: 100px;
+}

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif; /* !!!!!!! perguntar ao prof */
+    background-image: url('/images/loginPage/pexels-negative-space-48604.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card {
+    position: relative;
+    background-color: white;
+    opacity: 90%;
+    margin: auto;
+}
+
+section.cust-log-container{
+    margin-top:15%;
+    margin-bottom: 15%;
+}
+

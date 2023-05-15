@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+body {
+    font-size: 19px;
+    line-height: 1.8;
+    color: black;
+    font-weight: 400;
+    font-family: 'Lato';
+    background-image: url('/images/loginPage/register.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 115px 0;
+}
+
+.form-title {
+    margin-bottom: 30px;
+}
+
+.form-group {
+    line-height: 1.8;
+}
+
+.subbutton {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.loginhere {
+    font-size: 18px;
+}
+
+.form-group label {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.mandatory_filling{
+    font-size: 10px;
+    display: inline;
+    margin: 0;
+}

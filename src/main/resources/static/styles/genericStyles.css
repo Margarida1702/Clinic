@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body, html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Lato', sans-serif; /* !!!!!!! perguntar ao prof */
+
+
+}
+
+.cust-color-gre-Up{
+    color:#98C33E!important;
+}
+
+.cust-bg-gre-Up{
+    background-color:#98C33E !important;
+}
+
+.cust-color-blu-Up{
+    color:#31ADE0!important;
+ }
+
+.cust-bg-blu-Up{
+    background-color:#31ADE0!important;
+}
+
+.cust-btn-blu-Up{
+    border: transparent;
+    background-color:#31ADE0;
+    color: white;
+}
+/* */
+
+
+

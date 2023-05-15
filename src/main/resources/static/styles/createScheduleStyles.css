@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.cust-title-main {
+    text-align: left;
+    font: normal normal bold 29px/34px Lato;
+    letter-spacing: 2.59px;
+    color: #98C33E;
+    opacity: 1;
+}
+
+.cust-subtitle-main {
+    text-align: left;
+    font: normal normal bold 21px/24px Lato;
+    letter-spacing: 2.59px;
+    color: #7E7E7E;
+    opacity: 1;
+}
+
+.cust-label{
+    text-align: left;
+    font: normal normal bold 15px/19px Lato;
+    letter-spacing: 2.59px;
+    color: #7E7E7E;
+    opacity: 1;
+}
+

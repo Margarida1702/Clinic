@@ -1,0 +1,195 @@
+/*body {*/
+/*    width: 100%;*/
+/*    height: 75vh;*/
+/*    background: url("../images/common/hero-bg.jpg") top center;*/
+/*    background-size: cover;*/
+/*    margin-bottom: -200px;*/
+/*}*/
+
+.appointments .icon-box {
+    background: #f7f7f9;
+    text-align: center;
+    border: 1px solid #d5e1ed;
+    padding: 70px 20px;
+    transition: all ease-in-out 0.3s;
+    width: 100%;
+    text-decoration: none;
+}
+.text_t {
+    align-content: center;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    font: normal normal normal 21px/24px Lato;
+    letter-spacing: -0.73px;
+    color: #7E7E7E;
+    opacity: 1;
+}
+.text_l {
+    margin-top: 5px;
+    text-align: left;
+    font: normal normal normal 21px/24px Lato;
+    letter-spacing: -0.73px;
+    color: #7E7E7E;
+    opacity: 1;
+}
+
+.appointments .icon-box .icon {
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+    background: #31ADE0;
+    border-radius: 5px;
+    transition: all 0.3s ease-out 0s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transform-style: preserve-3d;
+}
+
+.appointments .icon-box .icon i {
+    color: #fff;
+    font-size: 28px;
+}
+
+.appointments .icon-box .icon::before {
+    position: absolute;
+    content: "";
+    left: -8px;
+    top: -8px;
+    height: 100%;
+    width: 100%;
+    background: #badaf7;
+    border-radius: 5px;
+    transition: all 0.3s ease-out 0s;
+    transform: translateZ(-1px);
+}
+
+.appointments .icon-box h4 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #2c4964;
+}
+
+.appointments .icon-box p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+    color: #143250;
+}
+
+.appointments .icon-box:hover {
+    background: #1977cc;
+    border-color: #1977cc;
+}
+
+.appointments .icon-box:hover .icon {
+    background: #fff;
+}
+
+.appointments .icon-box:hover .icon i {
+    color: #1977cc;
+}
+
+.appointments .icon-box:hover .icon::before {
+    background: #3291e6;
+}
+
+.appointments .icon-box:hover h4,
+.appointments .icon-box:hover p {
+    color: #fff;
+}
+
+.cust-mainContContainer {
+
+    background: transparent url('/images/loginPage/Bg_ap.png') 0% 0% no-repeat padding-box;
+    background-size: cover;
+    overflow-y: auto;
+    /*margin-left: 10px;*/
+}
+
+.cust-t-ban{
+
+}
+
+
+.cust-tban-logo-cont{
+    min-width: 180px;
+    /* height: 98px;
+    display: inline;*/
+}
+
+.cust-tban-logo img{
+    min-width: 175px;
+    max-width: 190px;
+    /* height: 98px;
+    display: inline;*/
+}
+
+.cust-tban-descr-container{
+
+}
+.cust-tban-desc-title {
+    text-align: left;
+    font: normal normal bold 24px/29px Lato;
+    letter-spacing: 2.59px;
+    color: #2C363E;
+    opacity: 1;
+}
+
+.cust-tban-desc-txt {
+    text-align: left;
+    font: normal normal normal 21px/24px Lato;
+    letter-spacing: -0.73px;
+    color: #7E7E7E;
+    opacity: 1;
+}
+
+.cus-shed-table-cont{
+    min-width: 469px;
+    overflow: auto;
+}
+
+.cus-shed-table-cont table {
+    margin-top: 20px;
+    border: 2px solid;
+    width: 100%;
+
+}
+
+.arrow {
+    width: 20px;
+    margin-top: 25px;
+    border-color: transparent;
+}
+
+.specialty_icon {
+    width: 40px;
+}
+
+.slot-hour:hover {
+    background-color: #c4c4c4;
+}
+
+.slot-hour a {
+    width: 100%;
+    padding: 10px 0;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.cus-inactive-slot-link{
+    width: 100%;
+    padding: 10px 0;
+    text-decoration: none;
+    color:#4a5464;
+    display: block;
+}
+
+.mandatory_filling{
+    font-size: 10px;
+    display: inline;
+    margin: 0;
+}

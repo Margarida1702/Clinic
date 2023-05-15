@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+
+
+.form-title {
+    margin-bottom: 30px;
+}
+
+.form-group {
+    line-height: 1.8;
+    /*background-color: #FFFFFF;*/
+
+}
+
+.subbutton {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.loginhere {
+    font-size: 18px;
+}
+
+.form-group label {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.mandatory_filling{
+    font-size: 10px;
+    display: inline;
+    margin: 0;
+}
+
+.count{
+    font-size: 13px;
+}
